@@ -23,6 +23,9 @@ import {
     butter,
     toya,
     sterling,
+    memecap,
+    image,
+    text,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +45,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Text to Image",
         icon: web,
     },
     {
-        title: "Mobile Developer",
+        title: "Text Generation",
         icon: mobile,
     },
     {
-        title: "Graphic Designer",
+        title: "Text to Meme",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Text to Speech",
         icon: creator,
     },
 ];
@@ -198,66 +201,44 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Butter",
+        name: "Text to Image",
         description:
-            "An android app that equips users with various AI tools like text to memes, text to images, text generation, text to speech.",
+            "Spidey, AI-style: Weave Your Web of Creativity",
         tags: [
-            {
-                name: "android",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Open-AI",
-                color: "green-text-gradient",
-            },
-            {
-                name: "pytorch",
-                color: "pink-text-gradient",
-            },
+            // {
+            //     name: "android",
+            //     color: "blue-text-gradient",
+            // },
+            // {
+            //     name: "Open-AI",
+            //     color: "green-text-gradient",
+            // },
+            // {
+            //     name: "pytorch",
+            //     color: "pink-text-gradient",
+            // },
         ],
-        image: butter,
+        image: image,
         source_code_link: "https://play.google.com/store/apps/details?id=ai.butter.smoothies",
     },
     {
-        name: "Toya",
+        name: "Text Generation",
         description:
-            "A private memeber's community app that lets you connect with several people around London, book events, chat with connections and find dating matches.",
+            "Hey Butter! Write a formal resignation main for me",
         tags: [
-            {
-                name: "flutter",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "firebase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "revenuecat",
-                color: "pink-text-gradient",
-            },
+
         ],
-        image: toya,
+        image: text,
         source_code_link: "https://play.google.com/store/apps/details?id=com.toya.som&hl=en_US&gl=US",
     },
     {
-        name: "Sterling",
+        name: "Text to Meme",
         description:
-            "A comprehensive travel booking platform that allows users to book rental cars",
+            "Image input: My face when I realize it's only Wednesday; Caption input: My face when I realize it's only Wednesday",
         tags: [
-            {
-                name: "flutter",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "php",
-                color: "green-text-gradient",
-            },
-            {
-                name: "laravel",
-                color: "pink-text-gradient",
-            },
+
         ],
-        image: sterling,
+        image: memecap,
         source_code_link: "https://play.google.com/store/apps/details?id=com.sterling.taxi&hl=en_US&gl=US",
     },
 ];

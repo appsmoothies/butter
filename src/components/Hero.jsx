@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import React, { Suspense, useEffect, useState } from "react";
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
-import { laptop } from '../assets';
+import { laptop, hero } from '../assets';
 
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -40,19 +40,29 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            Hi, We're <span className='text-[#915eff]'>Smoothies
+            Hi, I'm <span className='text-[#915eff]'>Butter
             </span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            We blend creativity into apps & websites.<br className='sm:block hidden' /> Let's create together and make magic online! 🍹✨
+            Your Recipe for Content Creation Brilliance!<br className='sm:block hidden' /> From memes to speech, my tools amplify your creativity effortlessly!🧈✨
           </p>
         </div>
       </div>
-      {isMobile ? <img
-        className='absolute xs:bottom-16
-      bottom-32 w-full flex justify-center px-5
+      <div className='absolute xs:bottom-10
+      bottom-10 w-full flex justify-center px-5
+      items-center'>
+        {isMobile ? <img
+          className='absolute xs:bottom-10
+      bottom-10 w-[90%] flex justify-center px-5
       items-center'
-      src={laptop}
-      /> : <ComputersCanvas />}  
+          src={hero}
+        /> : <img
+          className='xs:bottom-10
+      bottom-10 h-[40%] flex justify-center px-5
+      items-center '
+          src={hero}
+        />}
+      </div>
+
       <div className='absolute xs:bottom-5
       bottom-16 w-full flex justify-center
       items-center'>

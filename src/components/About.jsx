@@ -47,8 +47,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >Introducing Smoothies: where digital flavors meet innovation! Our team concocts delightful apps and websites, blending creativity with code. Just like crafting the perfect smoothie, we mix intuitive design, seamless functionality, and a dash of magic to create digital experiences that leave a refreshing taste on the palate of our clients and users alike.
-      </motion.p>
+      >With me, your creativity knows no bounds. I seamlessly transform your text into memes, images, speeches, and articles in seconds. From adding humor to expressing ideas visually and audibly, I empower you to unleash your imagination like never before. Say hello to endless creative possibilities with Butter! </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index}{...service} />

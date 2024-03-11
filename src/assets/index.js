@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,6 +8,7 @@ import play from './play_icon.png';
 import menu from "./menu.svg";
 import close from "./close.svg";
 import laptop from "./laptop.png";
+import hero from "./hero.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +32,10 @@ import tesla from "./company/tesla.png";
 import butter from './butter.png';
 import toya from './toya.png';
 import sterling from './sterling.png';
+
+import memecap from './memecap.jpeg';
+import text from './text.jpeg';
+import image from './image.jpeg';
 
 export {
   logo,
@@ -63,4 +68,8 @@ export {
   toya,
   sterling,
   laptop,
+  hero,
+  image,
+  text,
+  memecap,
 };
